@@ -2,8 +2,8 @@ import { test, expect } from '@playwright/test';
 import path from 'path';
 import fs from 'fs';
 
-const TEST_USERNAME = process.env.TEST_USERNAME || 'raghavkirpekar@gmail.com';
-const TEST_PASSWORD = process.env.TEST_PASSWORD || 'Testpassword123!@#';
+const TEST_USERNAME = process.env.TEST_USERNAME;
+const TEST_PASSWORD = process.env.TEST_PASSWORD;
 
 test.describe('Rhombus AI Pipeline Flow', () => {
 
