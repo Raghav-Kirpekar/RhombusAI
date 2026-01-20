@@ -1,0 +1,22 @@
+{
+  "name": "rhombusai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test ui-tests",
+    "test:api": "npx playwright test api-tests",
+    "test:data": "node data-validation/validate.js data-validation/input.csv data-validation/output.csv"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "csv-parse": "^6.1.0",
+    "dotenv": "^17.2.3",
+    "typescript": "^5.9.3"
+  }
+}
