@@ -1,4 +1,4 @@
-# Rhombus AI - Quality Engineering Take-Home
+# Rhombus AI - Software Engineering Take-Home
 
 This repository contains the deliverables for the Software Engineer – Test take-home exercise.
 
