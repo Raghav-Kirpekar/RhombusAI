@@ -64,7 +64,6 @@ The following areas were explicitly excluded from this automation suite:
 4.  **Mobile Responsiveness**: The UI tests are configured for Desktop Viewports (1280x720) only.
 
 ## Demo Video (Part 7)
-[Link to Demo Video] (Please replace this with your actual video link)
 
 ## Notes on Implementation
 - **UI Tests**: The `pipeline.spec.ts` is designed to be robust against dynamic class names by using role-based and text-based locators.
