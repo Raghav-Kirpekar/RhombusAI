@@ -65,6 +65,8 @@ The following areas were explicitly excluded from this automation suite:
 
 ## Demo Video (Part 7)
 
+https://drive.google.com/file/d/1vJMEIsaevnoDYsgke47Fg7yNH21Pwb4M/view?usp=share_link
+
 ## Notes on Implementation
 - **UI Tests**: The `pipeline.spec.ts` is designed to be robust against dynamic class names by using role-based and text-based locators.
 - **File Upload**: Includes a smart automation strategy that targets the `+` icon using specific SVG selectors to handle the custom upload modal.
