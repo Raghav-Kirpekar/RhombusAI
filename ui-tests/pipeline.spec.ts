@@ -9,8 +9,8 @@ test.describe('Rhombus AI Pipeline Flow', () => {
 
     test.setTimeout(180000); // Increased timeout for manual interactions
 
-    test('should upload CSV, transform data, and download result (Fixed)', async ({ page }) => {
-        console.log('Running Test Version: Final Robust (Auto-Graph + Hybrid Download)');
+    test('should upload CSV, transform data, and download result', async ({ page }) => {
+        console.log('Running Test Version: Final (Auto-Graph + Hybrid Download)');
         // 1. Sign In
         await page.goto('https://rhombusai.com');
 
